@@ -1,0 +1,7 @@
+---
+applications:
+  - name: springboot-allinone
+    path: target/springboot-allinone-0.0.1-SNAPSHOT.jar
+    domain: cfapps.io
+    instances: 1
+    memory: 1G
