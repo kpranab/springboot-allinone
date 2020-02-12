@@ -1,6 +1,10 @@
 travel-config.supportedDestinations: BARCELONA, LONDON, PARIS
+
 message.hello: Hello from development properties file
 
+server:
+  port : 2020
+  
 spring:
   jpa:
      show-sql: true

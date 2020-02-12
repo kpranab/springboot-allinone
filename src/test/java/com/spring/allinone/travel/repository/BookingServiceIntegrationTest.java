@@ -1,5 +1,7 @@
 package com.spring.allinone.travel.repository;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,7 @@ public class BookingServiceIntegrationTest {
 
 	@Test
 	public void shouldBookATravel() {
-		bookingService.book(new Travel("pranab","LONDON","PARIS"));
+		boolean bookingStatus = bookingService.book(new Travel("pranab","LONDON","PARIS"));
+		assertEquals(bookingStatus, true);
 	}
 }
