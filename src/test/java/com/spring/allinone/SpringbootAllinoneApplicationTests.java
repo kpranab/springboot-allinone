@@ -1,12 +1,11 @@
-package com.spring.allinone.springbootallinone;
+package com.spring.allinone;
 
-import org.junit.jupiter.api.Test;
 //import org.springframework.boot.test.context.SpringBootTest;
 
 //@SpringBootTest
 class SpringbootAllinoneApplicationTests {
 
-	@Test
+//	@Test
 	void contextLoads() {
 	}
 

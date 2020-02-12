@@ -1,0 +1,20 @@
+travel-config.supportedDestinations: BARCELONA, LONDON, PARIS
+message.hello: Hello from development properties file
+
+spring:
+  jpa:
+     show-sql: true
+     hibernate:
+        ddl-auto: update
+     properties:
+        hibernate:
+           dialect: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
